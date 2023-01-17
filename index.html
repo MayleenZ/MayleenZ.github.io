@@ -2,15 +2,21 @@
 <html>
 <head>
     <title>Mayleen Zhagnay</title>
-    <link rel="stylesheet" type="text/css" href="file:///Users/mayleen/Desktop/Software%20Engineering/Prework/css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script>
+        function onSubmitClicked()
+        {
+            alert("Thank you! but this isn't a real website.");
+        }
+    </script>
 </head>
 <body>
 
     <h1 class= 'name'>Mayleen Z.</h1>
-    <div class="nav"
-    <nav>
-        <a href = "file:///Users/mayleen/Desktop/Software%20Engineering/Prework/Pages/crochetprojects.html">Crochet Projects</a>
-    </nav>
+    <div class="nav">
+        <nav>
+            <a href = "Pages/crochetprojects.html">Crochet Projects</a>
+        </nav>
     </div>
 
     <h3 class="welcome">Welcome to my Home Page!</h3>
@@ -29,7 +35,7 @@
         </p>
     </div>
 <br>
-     <div id="div3">
+     <div id="div3" class="center">
         <h2>Favorite Topics:</h2>
 
     <ul>
@@ -43,15 +49,15 @@
             Fun Fact: I know how to spell supercalifragilisticexpialidocious.
         </p>
     </div>
-<br>
-    <iframe src="https://giphy.com/embed/JIX9t2j0ZTN9S" width="280" height="200" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/JIX9t2j0ZTN9S"></a></p>
-<br>
-    <form>
+    <iframe src="https://giphy.com/embed/JIX9t2j0ZTN9S" width="280" height="200" frameBorder="0" class="giphy-embed" allowFullScreen>
+
+    </iframe>
+    <form class="center">
         <h3>Stay Updated!</h3>
         Type in your email to get the latest posts: <br>
         <br>
         <input type = "email" name="Email" placeholder="Email">
-        <input type ="button" name="Submit" value="Submit">
+        <input type ="button" name="Submit" value="Submit" onclick="onSubmitClicked()">
     </form>
 
 </body>

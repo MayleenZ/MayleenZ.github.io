@@ -13,22 +13,36 @@
 }
 .nav{
     position: fixed;
-    background-color: white;
+    background-color: rgb(233, 221, 170);
+    padding: 10px;
+    border-radius: 25px;
+    z-index: 1;
 }
 .header{
     text-align: left;
     border: solid black; 
+    padding: 10px;
+    max-width: 500px;
 }
 
 ul{
     font-style: italic;
+    list-style-type: none;
 }
-.par{
+
+p {
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
     font-size: 15px, bold;
-    color: white;
+    color: rgb(61, 61, 61);
+    max-width: 500px;
 }
+
 body{
-    background-color:rgb(182, 152, 252);
+    background-color:rgb(211, 200, 236);
     font-family:system-ui;
     text-align: center;
 }
@@ -37,31 +51,52 @@ body{
     font-style: italic;
     color:green;
 }
+
 a { 
     color:purple;
 }
-.pic {
+img {
     border:7px dotted white;
+    margin: 10px;
+    padding: 5px;
 }
+
+.center {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 table{
-    border:5px solid white;
+    border:5px solid rgb(0, 0, 0);
     font-size: 15px;
+    margin-top: 25px;
+    padding: 10px;
 }
 
 .div2{
     position: relative;
 }
+
 #div3{
     background-color:rgb(72, 193, 172);
     border: black solid;
+    max-width: 500px;
 }
+
 #div3:hover{
     background-color:rgb(218, 154, 35);
 }
+
 form{
     padding: 15px;
     background-color: pink;
     border-style: dotted;
+    max-width: 500px;
+}
+
+iframe {
+    margin: 25px;
 }
 
 input[type=button]:hover{
