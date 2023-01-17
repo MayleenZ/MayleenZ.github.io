@@ -1,0 +1,73 @@
+
+.name{
+    color: purple;
+    text-decoration:underline pink;
+}
+
+.welcome{
+    font-style:italic;
+    font-size:40px;
+    color: white;
+    text-decoration: underline pink;
+    text-align: center;
+}
+.nav{
+    position: fixed;
+    background-color: white;
+}
+.header{
+    text-align: left;
+    border: solid black; 
+}
+
+ul{
+    font-style: italic;
+}
+.par{
+    font-size: 15px, bold;
+    color: white;
+}
+body{
+    background-color:rgb(182, 152, 252);
+    font-family:system-ui;
+    text-align: center;
+}
+
+.inline{
+    font-style: italic;
+    color:green;
+}
+a { 
+    color:purple;
+}
+.pic {
+    border:7px dotted white;
+}
+table{
+    border:5px solid white;
+    font-size: 15px;
+}
+
+.div2{
+    position: relative;
+}
+#div3{
+    background-color:rgb(72, 193, 172);
+    border: black solid;
+}
+#div3:hover{
+    background-color:rgb(218, 154, 35);
+}
+form{
+    padding: 15px;
+    background-color: pink;
+    border-style: dotted;
+}
+
+input[type=button]:hover{
+    color:black;
+    background-color: rgb(250, 120, 120);
+    cursor: pointer;
+}
+
+
